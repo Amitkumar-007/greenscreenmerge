@@ -1,0 +1,51 @@
+body{
+  background:#eee;
+}
+.common{
+  border:5px solid lightgray;
+  padding:5px;
+  margin:5px;
+}
+.header{
+  width:98%;
+  height:auto;
+  background-color: rgb(100,100,250);
+  text-align: center;
+  align-self: center;
+  font-family:cursive;
+  font-size:40px;
+}
+#images{
+  width:98%;
+    height:400px;
+    margin:5px;
+    border:5px solid lightblue;
+    text-align:center;
+}
+#can1{
+  width:48%;
+  height:97%;
+  border:5px solid lightblue;
+  background:lightblue;
+}
+#can2{
+  width:48%;
+  height:97%;
+  border:5px solid pink;
+  background:pink;
+}
+.imagepro{
+  width:100%;
+  height:auto;
+}
+.imageit{
+  width:auto;
+  height:100%;
+  }
+.process{
+  width:auto;
+  height:100%;
+}
+.mer{
+  
+}

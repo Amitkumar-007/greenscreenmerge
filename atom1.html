@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    PROJECT SCREEN
+  </title>
+</head>
+<link rel="stylesheet" href="atom1.css">
+<script src="atom1.js"></script>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+<body>
+  <div class="header common">
+    GREEN SCREEN
+  </div>
+  <b>Description :</b> this website combines a image with green screen to another image , so to merge image insert foreground image and background image and click merge
+  <br>
+  <h3>Try it!!!</h3>
+  <div id="images">
+    <canvas id="can1">
+    </canvas>
+    <canvas id="can2">
+    </canvas></div>
+    <div class="imagepro">
+    <div class="imageit">
+        <p><b>FOREGROUND IMAGE :  </b><input type="file" multiple="false" accept="image/*"  id="fore" onchange="loadforeground()"></p>
+        <p><b>BACKGROUND IMAGE :  </b><input type="file" multiple="false" accept="image/*"  id="back" onchange="loadbackground()"></p>
+      </div>
+    <div class="process">
+      <p width="30%"><input type="button" value="merge images" id="mer" onclick="merge()"></p>
+      <input type="button" value="clear canvas" id="cls" onclick="show()">
+    </div>
+  </div>
+</body>
+</html>
